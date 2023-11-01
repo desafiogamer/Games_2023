@@ -469,6 +469,7 @@ img {
 }
 
 .footer {
+    height: 100px;
     box-shadow: 0 0 10px black;
     display: flex;
     justify-content: space-between;
