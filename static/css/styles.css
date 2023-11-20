@@ -149,18 +149,18 @@ a{
     width: 80px;
     height: 80px;
     margin: 34% 0 0 2%;
-    overflow: hidden;
     border-radius: 50%;
     border: 2px solid black;
     box-shadow: 0 0 10px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.img{
-    width: 80px;
-    height: 80px;
-    background-image: url(../img/botao.png);
-    background-size: cover;
-    background-position: center;
+.icons-box .icon-pai i{
+    margin-top: 5px;
+    color: black;
+    font-size: 60px;
 }
 
 .icons-box .icons-1{
