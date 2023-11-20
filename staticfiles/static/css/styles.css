@@ -150,7 +150,7 @@ a{
     height: 80px;
     margin: 34% 0 0 2%;
     border-radius: 50%;
-    border: 2px solid black;
+    border: 2px solid var(--main-color);
     box-shadow: 0 0 10px black;
     display: flex;
     justify-content: center;
@@ -172,7 +172,7 @@ a{
     margin-left: -70px;
     align-items: center;
     border-radius: 50%;
-    border: 2px solid black;
+    border: 2px solid var(--main-color);
     display: flex;
     box-shadow: 0 0 10px black;
     cursor: pointer;
@@ -185,7 +185,7 @@ a{
 
 .icons-box .icons-1 a i{
     display: flex;
-    color: black;
+    color: var(--main-color);
     font-size: 30px;
     margin-left: 8px;
 }
@@ -201,7 +201,7 @@ a{
     border-radius: 50%;
     align-items: center;
     display: flex;
-    border: 2px solid black;
+    border: 2px solid var(--main-color);
     box-shadow: 0 0 10px black;
     transition: .5s;
 }
@@ -212,7 +212,7 @@ a{
 
 .icons-box .icons-2 a i{
     display: flex;
-    color: black;
+    color: var(--main-color);
     font-size: 30px;
     margin-left: 8px;
     
@@ -228,7 +228,7 @@ a{
     border-radius: 50%;
     align-items: center;
     display: flex;
-    border: 2px solid black;
+    border: 2px solid var(--main-color);
     box-shadow: 0 0 10px black;
     transition: .5s;
 }
@@ -239,7 +239,7 @@ a{
 
 .icons-box .icons-3 a i{
     display: flex;
-    color: black;
+    color: var(--main-color);
     font-size: 30px;
     margin-left: 8px;
 }
