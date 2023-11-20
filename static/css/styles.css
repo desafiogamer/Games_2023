@@ -15,8 +15,6 @@
 }
 
 :root{
-    --bg-color: #1f242d;
-    --second-bg-color: #323946;
     --text-color: #ededed;
     --main-color: #00abf0;
 }
@@ -80,6 +78,7 @@ a{
     text-decoration: none;
     margin-top: 15px;
     font-size: 20px;
+    transition: .3s;
 }
 
 .header li a:hover{
@@ -87,16 +86,16 @@ a{
 }
 
 .home{
-    display: flex;
-    background: url(../img/good.jpg) no-repeat;
-    background-size: cover;
-    background-position: top;
-    width: 100%;
+    background: #1f2122;
     padding: 0 9%;
 }
 
 .principal{
-    width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 110%;
     margin-top: 120px;
 }
 
@@ -106,6 +105,8 @@ a{
 }
 
 .home-content h1 {
+    text-align: center;
+    color: var(--main-color);
     position: relative;
     display: inline-block;
     font-size: 4rem;
@@ -119,11 +120,12 @@ a{
 }
 
 .home-content p{
+    text-align: center;
     width: 800px;
     position: relative;
     font-size: 1.2rem;
     margin: 2rem 0 4rem;
-    color: #3b4557;
+    color: var(--text-color);
     margin-bottom: 80px;
 }
 
@@ -331,34 +333,6 @@ img {
     pointer-events: none;
 }
 
-@-webkit-keyframes dot {
-    50% {
-        -webkit-transform: translateX(96px);
-        transform: translateX(96px);
-    }
-}
-
-@keyframes dot {
-    50% {
-        -webkit-transform: translateX(96px);
-        transform: translateX(96px);
-    }
-}
-
-@-webkit-keyframes dots {
-    50% {
-        -webkit-transform: translateX(-31px);
-        transform: translateX(-31px);
-    }
-}
-
-@keyframes dots {
-    50% {
-        -webkit-transform: translateX(-31px);
-        transform: translateX(-31px);
-    }
-}
-
 .preloader-inner {
     position: relative;
     width: 142px;
@@ -469,6 +443,7 @@ img {
 }
 
 .footer {
+    height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -478,7 +453,7 @@ img {
 }
 
 .footer-text p {
-    font-size: 1.6rem;
+    font-size: 1rem;
     color: white;
 }
 
@@ -549,8 +524,8 @@ img {
     }
 
     .footer-text p {
-        font-size: 1.4rem;
-    }
+    font-size: 1.4rem;
+}
 
 }
 
@@ -608,5 +583,33 @@ img {
 @media(max-width: 283px){
     .header ul li a{
         display: none;
+    }
+}
+
+@-webkit-keyframes dot {
+    50% {
+        -webkit-transform: translateX(96px);
+        transform: translateX(96px);
+    }
+}
+
+@keyframes dot {
+    50% {
+        -webkit-transform: translateX(96px);
+        transform: translateX(96px);
+    }
+}
+
+@-webkit-keyframes dots {
+    50% {
+        -webkit-transform: translateX(-31px);
+        transform: translateX(-31px);
+    }
+}
+
+@keyframes dots {
+    50% {
+        -webkit-transform: translateX(-31px);
+        transform: translateX(-31px);
     }
 }
